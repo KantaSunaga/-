@@ -44,6 +44,7 @@ group :development, :test do
   gem 'guard-rspec', require: false # guardでrspecを動かす
   gem 'terminal-notifier'
   gem 'terminal-notifier-guard'  # デスクトップ通知を行う
+  gem 'simplecov', require: false
 end
 
 group :development do
