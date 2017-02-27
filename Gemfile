@@ -40,6 +40,7 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
   gem 'rspec-rails'
+  gem 'factory_girl_rails'
   gem 'guard-rspec', require: false # guardでrspecを動かす
   gem 'terminal-notifier'
   gem 'terminal-notifier-guard'  # デスクトップ通知を行う
